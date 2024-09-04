@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="home.html" class="logo"> <i class="fas fa-pizza-slice"></i>CrustAndCheese</a>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-1.png" alt="">
+                <div class="content">
+                    <h3>pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₹250</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-2.png" alt="">
+                <div class="content">
+                    <h3>pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₹250</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-3.png" alt="">
+                <div class="content">
+                    <h3>pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₹200</span>
+                </div>
+            </div>
+            <h3 class="total">total: ₹700</h3>
+            <a href="#" class="btn">checkout cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+       
+    </header>
+
+    <div class="heading">
+        <h1>our menu</h1>
+        <p><a href="home.html">home>>></a> menu</p>
+    </div>
+
+    <section class="menu">
+
+        <div class="swiper menu-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">pizza</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Ultimate Tandoori Veggie</h3>
+                                <p>An ultimate combination of your favourite veggies- onion, green capsicum, mushroom, tomato, spicy jalapeno on tandoori sauce, topped with 100% mozzarella cheese & generous drizzle of mint mayo. </p>
+                            </div>
+                            <div class="price">₹250</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Mazedar Makhni Paneer</h3>
+                                <p>A treat for all makhni lovers. Spiced paneer, onion, juicy red bell peppers with our new flavourful makhni sauce, topped with 100% mozzarella cheese and buttery spice sprinkle. </p>
+                            </div>
+                            <div class="price">₹300</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Nawabi Murg Makhni</h3>
+                                <p>A chicken lovers delight ! Combination of chicken malai tikka, flavourful chicken keema masala, crunchy onion, juicy tomato on our new makhni sauce with 100% mozzarella cheese and buttery spice sprinkle.</p>
+                            </div>
+                            <div class="price">₹350</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Chicken Golden Delight</h3>
+                                <p>Savor our Chicken Golden Delight Pizza: Juicy marinated chicken, sweet corn, and a golden blend of mozzarella and cheddar cheeses, all enhanced with a hint of garlic and herbs. Pure delight in every bite.</p>
+                            </div>
+                            <div class="price">₹300</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Chicken Dominator</h3>
+                                <p>Treat your taste buds with our Chicken Dominator Pizza: Double pepper barbecue chicken, spicy peri-peri chicken, savory chicken tikka, and grilled chicken rashers. A true delight for chicken lovers in every bite.</p>
+                            </div>
+                            <div class="price">₹350</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Moroccan Spice Pasta Pizza</h3>
+                                <p>Introducing our Moroccan Spice Pasta Pizza – non-veg. Enjoy a fiery combination of Harissa sauce, tender Peri Peri chicken chunks, and delicious pasta. Each bite offers a perfect blend of spicy and savory flavors .</p>
+                            </div>
+                            <div class="price">₹400</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">pasta</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>White sause pasta</h3>
+                                <p>Creamy Elegance: Dive into Our Luscious White Sauce Pasta!</p>
+                            </div>
+                            <div class="price">₹150</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Red sause pasta</h3>
+                                <p>Tangy Temptation: Enjoy Our Vibrant Red Sauce Pasta Delight!</p>
+                            </div>
+                            <div class="price">₹120</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Alferdo sause pasta</h3>
+                                <p>Decadent Delight: Savour Our Creamy Alfredo Sauce Pasta</p>
+                            </div>
+                            <div class="price">₹250</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Spaghetti</h3>
+                                <p>Classic Comfort: Twirl into Our Perfectly Cooked Spaghetti.</p>
+                            </div>
+                            <div class="price">₹200</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Lasagne</h3>
+                                <p>Layers of Comfort: Indulge in Our Rich and Hearty Lasagne.</p>
+                            </div>
+                            <div class="price">₹400</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Ravioli</h3>
+                                <p>Pockets of Joy: Delight in Our Handcrafted Ravioli.</p>
+                            </div>
+                            <div class="price">₹300</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">dessert</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Strawberry Cheesecake Cookies</h3>
+                                <p>These Strawberry Cheesecake Cookies are cream cheese sugar cookies sandwiched with swirls of strawberry cream cheese frosting!</p>
+                            </div>
+                            <div class="price">₹100</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Caramel Apple Angel Food Cake</h3>
+                                <p>This Caramel Apple Angel Food Cake is a light, fluffy apple angel food cake drizzled with a caramel glaze and homemade salted caramel sauce, then topped with cinnamon apple chips!</p>
+                            </div>
+                            <div class="price">₹300</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Pumpkin Tiramisu Cream Puffs</h3>
+                                <p>These Pumpkin Tiramisu Cream Puffs are brushed with espresso and marsala wine, filled with spiced pumpkin mascarpone mousse, then dusted with cocoa powder!</p>
+                            </div>
+                            <div class="price">₹250</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Blackberry Lavender Brownie Pie</h3>
+                                <p>The crust of this beauty is a fudgy brownie swirled with blackberry jam. The filling is a lavender-infused dark chocolate icebox pie, all topped with blackberry meringue. The flavors and textures are outstanding!</p>
+                            </div>
+                            <div class="price">₹350</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Almond Rolls with Cherry Glaze</h3>
+                                <p>Filled with homemade almond filling and topped with a gorgeous cherry glaze, you need these Almond Rolls with Cherry Glaze at your next brunch! Or...anytime, really. 😀</p>
+                            </div>
+                            <div class="price">₹200</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Blueberry Lattice Bars</h3>
+                                <p>Blueberry Bliss: Indulge in our irresistible Lattice Bars, filled with plump blueberries and golden, buttery layers. A perfect blend of sweetness and tartness for your enjoyment!</p>
+                            </div>
+                            <div class="price">₹200</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <section class="menu-preview-container">
+
+        <div id="close" class="fas fa-times"></div>
+    
+        <!-- Pizza Menu Previews -->
+        <div class="menu-preview" data-target="pizza">
+            <h3>Ultimate Tandoori Veggie</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>An ultimate combination of your favourite veggies topped with 100% mozzarella cheese & a drizzle of mint mayo.</p>
+            <div class="price">₹250</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="pizza">
+            <h3>Mazedar Makhni Paneer</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Spiced paneer, onion, red bell peppers on makhni sauce, topped with 100% mozzarella cheese.</p>
+            <div class="price">₹300</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="pizza">
+            <h3>Nawabi Murg Makhni</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Chicken malai tikka, keema masala, onion, and tomato on makhni sauce with 100% mozzarella cheese.</p>
+            <div class="price">₹350</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="pizza">
+            <h3>Chicken Golden Delight</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Juicy marinated chicken, sweet corn, mozzarella, and cheddar cheeses with a hint of garlic and herbs.</p>
+            <div class="price">₹300</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="pizza">
+            <h3>Chicken Dominator</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Pepper barbecue chicken, peri-peri chicken, chicken tikka, and grilled chicken rashers in every bite.</p>
+            <div class="price">₹350</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="pizza">
+            <h3>Moroccan Spice Pasta Pizza</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Harissa sauce, Peri Peri chicken chunks, and pasta. Each bite offers a perfect blend of spicy and savory flavors.</p>
+            <div class="price">₹400</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <!-- Pasta Menu Previews -->
+        <div class="menu-preview" data-target="pasta">
+            <h3>White Sauce Pasta</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Creamy Elegance: Dive into our luscious white sauce pasta!</p>
+            <div class="price">₹150</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="pasta">
+            <h3>Red Sauce Pasta</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Tangy Temptation: Enjoy our vibrant red sauce pasta delight!</p>
+            <div class="price">₹120</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="pasta">
+            <h3>Alfredo Sauce Pasta</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Decadent Delight: Savour our creamy Alfredo sauce pasta.</p>
+            <div class="price">₹250</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="pasta">
+            <h3>Spaghetti</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Classic Comfort: Twirl into our perfectly cooked spaghetti.</p>
+            <div class="price">₹200</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="pasta">
+            <h3>Lasagne</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Layers of Comfort: Indulge in our rich and hearty lasagne.</p>
+            <div class="price">₹400</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="pasta">
+            <h3>Ravioli</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Pockets of Joy: Delight in our handcrafted ravioli.</p>
+            <div class="price">₹300</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <!-- Dessert Menu Previews -->
+        <div class="menu-preview" data-target="sweet">
+            <h3>Strawberry Cheesecake Cookies</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Cream cheese sugar cookies sandwiched with swirls of strawberry cream cheese frosting!</p>
+            <div class="price">₹100</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="sweet">
+            <h3>Caramel Apple Angel Food Cake</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Light and fluffy angel food cake topped with caramelized apples.</p>
+            <div class="price">₹150</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="sweet">
+            <h3>Peanut Butter Cookies</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Classic peanut butter cookies with a rich and nutty flavor.</p>
+            <div class="price">₹80</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="sweet">
+            <h3>Chocolate Lava Cake</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Rich chocolate cake with a gooey, molten center.</p>
+            <div class="price">₹200</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="sweet">
+            <h3>Gingerbread Cookies</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Spiced gingerbread cookies decorated with royal icing.</p>
+            <div class="price">₹90</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="menu-preview" data-target="sweet">
+            <h3>Red Velvet Cake</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Deliciously moist red velvet cake with cream cheese frosting.</p>
+            <div class="price">₹250</div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Find us here</h3>
+                <address>CrustAndCheese,123 colony,vijaywada</address>
+                <div class="share">
+                    <button onclick="location.href='https://www.twitter.com/CrustAndCheese/'"><a class="fab fa-twitter"></a></button>
+                    <button onclick="location.href='https://www.instagram.com/CrustAndCheese/'"><a class="fab fa-instagram"></a></button>
+                    <button onclick="location.href='https://www.linkedin.com/in/CrustAndCheese/'"><a class="fab fa-linkedin"></a></button>
+                    <button onclick="location.href='https://www.facebook.com/CrustAndCheese/'"><a class="fab fa-facebook-f"></a></button>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>+91 9494963250</p>
+                <a href="CrustAndCheese@.com" class="link">CrustAndCheese@.com</a>
+            </div>
+
+            <div class="box">
+                <h3>localization</h3>
+                <p>CrustAndCheese,<br/>123 colony,vijaywada</p>
+            </div>
+
+        </div>
+        <div class="credit">created by <span>Veeramalla.Akhila</span> | All rights reserved!</div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
